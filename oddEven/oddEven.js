@@ -28,9 +28,9 @@ function setup() {
   }
 
   newImg.updatePixels();
+  image(newImg, 0, 0);
 }
 
 function draw() {
   background(220);
-  image(newImg, 0, 0);
 }
